@@ -11,7 +11,7 @@ function showPosition(position) {
 		"pk.eyJ1IjoiaGFpZGVyYWxpMTE3NyIsImEiOiJja2w5b2hucjAwOWZmMm90a3E5ajNmZW1uIn0.CCbg4qvnAb6hvu7vWqfoiw";
 	var map = new mapboxgl.Map({
 		container: "map",
-		style: "mapbox://styles/mapbox/dark-v11",
+		style: "mapbox://styles/mapbox/dark-v10",
 		center: [position.coords.longitude, position.coords.latitude],
 		zoom: 17,
 		minZoom: 2,
